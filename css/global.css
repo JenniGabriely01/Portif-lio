@@ -1,0 +1,27 @@
+:root{
+    --backgroundColor: #11071F;
+    --white: #CCD6F6;
+    --purpleDetails: #9857D3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: var(--backgroundColor);
+    max-width: 1442px;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 90%;
+}
+
+@media screen and (max-width: 720px) {
+    body{
+        width: 93%;
+        margin: 0 auto;
+    }
+}
