@@ -16,13 +16,13 @@
 }
 
 .nav-item {
-    margin: 0 5vw;
+    margin: 0 3vw;
 }
 
 .nav-link {
     text-decoration: none;
     color: var(--white);
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     transition: color 0.3s ease;
 }
 
@@ -44,7 +44,7 @@
     }
 
     .nav-bar {
-        padding: 1.5rem 4rem;
+        padding: 1rem 2rem;
     }
 
     .nav-item {
@@ -86,7 +86,6 @@
         padding: 1rem 2rem;
         text-align: center;
     }
-
 
     .open {
         display: block;
