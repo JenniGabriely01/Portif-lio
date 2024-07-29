@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/aboutMe.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,10 +26,10 @@
 
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">About me</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#aboutMe" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                 </ul>
             </div>
 
@@ -56,24 +57,42 @@
     </header>
 
     <main>
-        <section>
+        <section id="home">
             <div class="container-home">
-
                 <div class="text-home">
-                    <h1 id="text">i’m <span class="my-name">Jennifer Gabriely</span> <br> developer frontend and <br> ui designer</h1>
-                    <div class="buttons-home">
-                        <button>More about me</button>
-                        <a target="_blank" href="https://github.com/JenniGabriely01">
-                            <img src="img/icons/icon-github.svg" alt="Icon github">
-                        </a>
-                        <a target="_blank" href="https://www.linkedin.com/in/jennifer-gabriely/">
-                            <img src="img/icons/icon-linkedin.svg" alt="Icon linkedin">
-                        </a>
-                    </div>
+                    <h1><span class="i´m">i’m</span><br> developer frontend <br> and ui designer</h1>
+                    <button>More about me</button>
                 </div>
 
-                <div class="img-home">
+                <div class="icons-home">
+                    <hr>
+                    <a target="_blank" href="https://github.com/JenniGabriely01">
+                        <img src="img/icons/icon-github.svg" alt="Icon github">
+                    </a>
+                    <hr>
+                    <a target="_blank" href="https://www.linkedin.com/in/jennifer-gabriely/">
+                        <img src="img/icons/icon-linkedin.svg" alt="Icon linkedin">
+                    </a>
+                    <hr>
+                    <a target="_blank" href="https://www.linkedin.com/in/jennifer-gabriely/">
+                        <img src="img/icons/icon-email.svg" alt="Icon email">
+                    </a>
+                    <hr>
+                </div>
+            </div>
+        </section>
+
+        <section id="aboutMe">
+            <div class="container-aboutme">
+
+                <div class="img-aboutme">
                     <img src="img/my-face.png" alt="">
+                </div>
+
+                <div class="text-aboutme">
+                    <h2>Hi, my name is</h2>
+                    <h3>Jennifer Gabriely</h3>
+                    <p>I am pursuing a technical degree in Systems Analysis and Development at SENAI. As a UI design enthusiast, I create digital experiences that enchant and work. I am also expanding my knowledge in cloud computing to enhance my skills and contribute to the tech field.</p>
                 </div>
             </div>
         </section>

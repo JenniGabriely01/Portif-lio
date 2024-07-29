@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 80px;
     flex-wrap: wrap;
 }
 
@@ -18,24 +18,25 @@
     margin-bottom: 40px;
 }
 
-.buttons-home {
-    display: flex;
-    align-items: center;
+.i´m{
+    font-family: "Meow Script", cursive;
+    font-weight: 100;
+    font-size: 5rem;
+    line-height: 2px;
 }
 
-.buttons-home button {
+.text-home button {
     background-color: transparent;
     border: 1px solid var(--purpleDetails);
     color: var(--purpleDetails);
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 15px 0;
-    margin-right: 20px;
     transition: 0.2s ease;
     cursor: pointer;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 
-.buttons-home button:hover{
+.text-home button:hover{
     border: 2px solid var(--purpleDetails);
 }
 
@@ -43,9 +44,38 @@
     margin-right: 20px;
 }
 
-.my-name {
-    color: var(--purpleDetails);
+.icons-home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+.icons-home hr {
+    width: 1px; 
+    height: 30px; 
+    background-color: var(--purpleDetails);
+    border: none;
+    margin: 0;
+}
+
+.icons-home a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 0 5px;
+    border: 1px solid var(--purpleDetails);
+    transform: rotate(44deg); 
+    margin: 10px 0;
+}
+
+.icons-home a img {
+    transform: rotate(-44deg); 
+    width: 35px; 
+    height: 35px; 
+}
+
 
 @media screen and (max-width: 720px) {
 
